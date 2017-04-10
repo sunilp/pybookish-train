@@ -9,7 +9,7 @@ def distinct(iterable):
 
 
 def run_distict():
-	items = [5,7,7,6,5,5]
+	items = [5,7,7,6,5,5,4]
 	for item in distinct(items):
 		print(item)
 
